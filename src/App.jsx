@@ -1,12 +1,12 @@
 import './App.css'
 import { Global_style } from './style_global'
+
+import Home from './pages/Home'
 function App() {
   return (
-    <div className="App">
-      <Global_style/>
-      {/* <img src = 'https://www.saalve.com/assets/images/logo.png'/>
-       */}
-       <h1>Hello, Word!!!</h1>
+    <div className="App"> 
+      <Global_style />
+      <Home/>
     </div>
   )
 }

@@ -4,8 +4,8 @@ export const Global_style = createGlobalStyle`
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&display=swap');
    :root{
       --color-black : black;
-      --color-gray:#656565;
-
+      --color-gray: rgba(248,249,250, 1);
+      --color-gray-hover: rgb(199, 200, 201);
       --bg-primary: white;
       --bg-blue: #0099dc;
       --bg-orange: #0099dc

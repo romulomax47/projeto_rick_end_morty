@@ -6,9 +6,9 @@ export const Container = styled.header`
    justify-content: center;
    padding: 1rem 0;
    background-color: var(--color-gray);
-
    .wap{
       min-width: 90%;
+      
       /* border: 1px solid red; */
       display: flex;
       align-items: center;

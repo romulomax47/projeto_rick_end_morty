@@ -25,25 +25,30 @@ export const Container = styled.section`
    
 `
 export const Cards = styled.section`
-   position:relative;
    width:100%;
    display:flex;
-   flex-direction:row;
+   flex-direction:column;
    justify-content:center;
    gap:3rem;
-   
+   padding:0 1rem;
+     
+   @media(min-width:765px){
+      flex-direction:row;
+   }
    section{
-      width:35%;
+      width:100%;
       border: 1px solid gray;
       border-radius:10px;
       display:flex;
       flex-direction:column;
+      @media(min-width:765px){
+         width: 500px;
+      }
       img{
             position:relative;
             background-color:var(--bg-blue);
             width:100%;
             border-radius:10px 10px 0 0;
-            z-index:10;
          }
       div{
          padding: 0px 15px;
@@ -51,7 +56,7 @@ export const Cards = styled.section`
             margin-top:1rem;
             width:100%;
             text-align:center; 
-            font-size:1.5rem;
+            font-size:1.8rem;
 
          }
          p{

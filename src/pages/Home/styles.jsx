@@ -2,8 +2,10 @@ import styled from "styled-components";
 
 
 export const Main = styled.main`
+   padding-top:1.5rem;
    height: fit-content;
    width: 100%;
+   text-align:center;
    background-color: var(--bg-blue);
    display: flex;
    justify-content: center;
@@ -13,7 +15,6 @@ export const Main = styled.main`
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      padding: 1rem;
       @media(min-width:765px){
       flex-direction: row;
       width: 100%;
@@ -27,13 +28,11 @@ export const Main = styled.main`
 `
 export const ContextMain = styled.section`
    color: white;
-   width: 100%;
-
+   font-size:1.5em;
    @media(min-width:765px){
       width: 50%;
    }
    h1{
-      font-size: 2.5rem;
       font-weight: 600;
       margin-bottom: 1rem;
       font-weight: 600;
@@ -53,9 +52,11 @@ export const ContextMain = styled.section`
    }
    div{
      display:flex;
-     gap:3rem;
+     justify-content:space-between;
+     gap:1rem;
+     margin-bottom:1rem;
      img{
-         width: 150px;
+         width:40%;
       }
    }
 

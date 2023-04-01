@@ -12,7 +12,7 @@ function Home() {
          <Main>
             <dir className='wap'>
                <ContextMain>
-                  <h1>Da um <span>saalve</span>,<br /> que eu te salvo!</h1>
+                  <h1>Da um <span>saalve</span>, que eu te salvo!</h1>
                   <p>Nascido aqui e feito pra nossa gente com o propósito de estimular iniciativas empreendedoras, o comércio local, a geração de empregos, além de valorizar o sentido pertencimento à comunidade.</p>
                   <div>
                      <img src={Icon_google} alt="Icon google play"/>

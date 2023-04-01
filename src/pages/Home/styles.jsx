@@ -36,6 +36,11 @@ export const ContextMain = styled.section`
       font-size: 2.5rem;
       font-weight: 600;
       margin-bottom: 1rem;
+      font-weight: 600;
+      span{
+         color:orange;
+         font-weight: bold;
+      }
       @media(min-width:765px){
       margin-top: 3rem;
       font-size: 3rem;     
@@ -43,7 +48,7 @@ export const ContextMain = styled.section`
    }
    p{
       color:black;
-      font-weight: 600;
+      font-weight: bold;
       margin-bottom: 2rem;
    }
    div{

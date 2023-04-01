@@ -20,10 +20,14 @@ export const Main = styled.main`
       width: 100%;
    }
    }
-   
-   img{
-      width:90%;
+   div{
+     margin-top:1rem;
+     align-self:center;
+     img{
+      width:80%;
+   } 
    }
+   
    
 `
 export const ContextMain = styled.section`
@@ -35,28 +39,44 @@ export const ContextMain = styled.section`
    h1{
       font-weight: 600;
       margin-bottom: 1rem;
-      font-weight: 600;
+      font-size: 2em;
       span{
          color:orange;
          font-weight: bold;
       }
       @media(min-width:765px){
-      margin-top: 3rem;
-      font-size: 3rem;     
+         width:400px;
+         text-align:start;
+         margin-top: 3rem;
+         font-size: 3rem;    
    }
    }
    p{
       color:black;
       font-weight: bold;
       margin-bottom: 2rem;
-   }
+         @media(min-width:765px){
+            text-align:start;
+            font-size: 1rem;
+         }
+   };
+
    div{
      display:flex;
-     justify-content:space-between;
-     gap:1rem;
+     justify-content: space-between;
+     gap:1.5rem;
      margin-bottom:1rem;
+
+     @media(min-width:765px){
+            justify-content:start;
+            gap:2rem;
+         }
      img{
          width:40%;
+         @media(min-width:765px){
+            width:30%;
+            
+         }
       }
    }
 

@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+
 export const Main = styled.main`
    height: fit-content;
    width: 100%;
@@ -27,7 +28,7 @@ export const Main = styled.main`
 export const ContextMain = styled.section`
    color: white;
    width: 100%;
-   margin-bottom: 2rem;
+
    @media(min-width:765px){
       width: 50%;
    }
@@ -43,8 +44,11 @@ export const ContextMain = styled.section`
    p{
       color:black;
       font-weight: 600;
+      margin-bottom: 2rem;
    }
    div{
+     display:flex;
+     gap:3rem;
      img{
          width: 150px;
       }

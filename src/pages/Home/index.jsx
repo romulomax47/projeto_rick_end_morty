@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../../componets/Header';
 import { Main, ContextMain } from './styles';
+import TogetherWithUs from '../../componets/TogetherWithUs'
 
 function Home() {
    return (
@@ -15,6 +16,8 @@ function Home() {
                      {/* <span>Baixe já o seu</span> */}
                      {/* <i class="bi bi-google-play"></i> */}
                      <img src="https://www.saalve.com/assets/images/btn-download.png" alt="" />
+                     <img src="https://salveapp.com.br/wp-content/uploads/2021/11/app-story-1.png" alt="" />
+                  
                   </div>
                </ContextMain>
 
@@ -23,6 +26,8 @@ function Home() {
                </div>
             </dir>
          </Main>
+         <TogetherWithUs/>
+
 
       </>
    );
